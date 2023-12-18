@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+p {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6943FF;
+    width: 550px;
+}
+
+.main-title {
+    color: white;
+}
+
+.input-field {
+    height: 83px;
+    width: 117px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 58px;
+    text-align: center;
+}
+
+.convert-button {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px #0000000D;
+}
+
+.conversions-container {
+    background-color: #1F2937;
+    margin-top: -20px;
+    height: 730px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.length-container,
+.volume-container,
+.mass-container {
+    height: 109px;
+    width: 500px;
+    background-color: #273549;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversion-type-styles {
+    color: #CCC1FF;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.length-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.volume-container {
+    margin-bottom: 20px;
+}
+
+.conversion-paragraphs {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 14px;
+}
